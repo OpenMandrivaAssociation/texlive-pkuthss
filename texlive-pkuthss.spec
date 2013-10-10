@@ -1,11 +1,11 @@
-# revision 27955
+# revision 29797
 # category Package
 # catalog-ctan /macros/latex/contrib/pkuthss
-# catalog-date 2012-10-11 15:33:57 +0200
+# catalog-date 2013-04-08 10:17:07 +0200
 # catalog-license other-free
-# catalog-version 1.4beta2
+# catalog-version 1.4rc3
 Name:		texlive-pkuthss
-Version:	1.4beta2
+Version:	1.4rc3
 Release:	1
 Summary:	LaTeX template for dissertations in Peking University
 Group:		Publishing
@@ -36,7 +36,6 @@ template for dissertations in Peking University.
 %{_texmfdistdir}/tex/latex/pkuthss/pkuthss-gbk.def
 %{_texmfdistdir}/tex/latex/pkuthss/pkuthss-utf8.def
 %{_texmfdistdir}/tex/latex/pkuthss/pkuthss.cls
-%doc %{_texmfdistdir}/doc/latex/pkuthss/README
 %doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/ChangeLog-upto-1.3.txt
 %doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/ChangeLog.txt
 %doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/Make.bat
