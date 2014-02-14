@@ -1,12 +1,12 @@
-# revision 29797
+# revision 32518
 # category Package
 # catalog-ctan /macros/latex/contrib/pkuthss
-# catalog-date 2013-04-08 10:17:07 +0200
+# catalog-date 2013-12-26 22:49:27 +0100
 # catalog-license other-free
-# catalog-version 1.4rc3
+# catalog-version 1.4-rc4
 Name:		texlive-pkuthss
-Version:	1.4rc3
-Release:	5
+Version:	1.4.rc4
+Release:	1
 Summary:	LaTeX template for dissertations in Peking University
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pkuthss
