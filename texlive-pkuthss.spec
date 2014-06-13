@@ -6,7 +6,7 @@
 # catalog-version 1.4-rc4
 Name:		texlive-pkuthss
 Version:	1.4.rc4
-Release:	1
+Release:	2
 Summary:	LaTeX template for dissertations in Peking University
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pkuthss
