@@ -1,12 +1,12 @@
-# revision 32518
+# revision 33464
 # category Package
 # catalog-ctan /macros/latex/contrib/pkuthss
-# catalog-date 2013-12-26 22:49:27 +0100
+# catalog-date 2014-04-16 20:04:38 +0200
 # catalog-license other-free
-# catalog-version 1.4-rc4
+# catalog-version 1.5.2
 Name:		texlive-pkuthss
-Version:	1.4.rc4
-Release:	2
+Version:	1.5.2
+Release:	1
 Summary:	LaTeX template for dissertations in Peking University
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pkuthss
@@ -32,53 +32,55 @@ template for dissertations in Peking University.
 
 #-----------------------------------------------------------------------
 %files
+%{_texmfdistdir}/tex/latex/pkuthss/pkulogo.eps
+%{_texmfdistdir}/tex/latex/pkuthss/pkulogo.pdf
 %{_texmfdistdir}/tex/latex/pkuthss/pkuthss-extra.sty
 %{_texmfdistdir}/tex/latex/pkuthss/pkuthss-gbk.def
 %{_texmfdistdir}/tex/latex/pkuthss/pkuthss-utf8.def
 %{_texmfdistdir}/tex/latex/pkuthss/pkuthss.cls
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/ChangeLog-upto-1.3.txt
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/ChangeLog.txt
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/Make.bat
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/Makefile
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/chap/abstract.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/chap/acknowledge.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/chap/chap1.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/chap/chap2.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/chap/chap3.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/chap/conclusion.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/chap/copyright.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/chap/encl1.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/chap/encl2.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/chap/introduction.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/chap/originauth.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/img/Make.bat
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/img/Makefile
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/img/pkulogo.eps
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/img/pkuword.eps
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/pkuthss.bib
-%doc %{_texmfdistdir}/doc/latex/pkuthss/gbkcrlf/pkuthss.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/pkuthss.pdf
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/ChangeLog-upto-1.3.txt
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/ChangeLog.txt
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/Make.bat
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/Makefile
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/chap/abstract.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/chap/acknowledge.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/chap/chap1.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/chap/chap2.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/chap/chap3.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/chap/conclusion.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/chap/copyright.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/chap/encl1.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/chap/encl2.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/chap/introduction.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/chap/originauth.tex
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/img/Make.bat
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/img/Makefile
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/img/pkulogo.eps
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/img/pkuword.eps
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/pkuthss.bib
-%doc %{_texmfdistdir}/doc/latex/pkuthss/utf8lf/pkuthss.tex
+%{_texmfdistdir}/tex/latex/pkuthss/pkuword.eps
+%{_texmfdistdir}/tex/latex/pkuthss/pkuword.pdf
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-gbk/Make.bat
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-gbk/Makefile
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-gbk/chap/abstract.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-gbk/chap/acknowledge.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-gbk/chap/chap1.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-gbk/chap/conclusion.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-gbk/chap/copyright.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-gbk/chap/encl1.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-gbk/chap/introduction.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-gbk/chap/originauth.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-gbk/thesis.bib
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-gbk/thesis.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-utf8/Make.bat
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-utf8/Makefile
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-utf8/chap/abstract.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-utf8/chap/acknowledge.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-utf8/chap/chap1.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-utf8/chap/conclusion.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-utf8/chap/copyright.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-utf8/chap/encl1.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-utf8/chap/introduction.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-utf8/chap/originauth.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-utf8/thesis.bib
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example-utf8/thesis.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/example.pdf
+%doc %{_texmfdistdir}/doc/latex/pkuthss/readme-src/ChangeLog-upto-1.3.txt
+%doc %{_texmfdistdir}/doc/latex/pkuthss/readme-src/ChangeLog.txt
+%doc %{_texmfdistdir}/doc/latex/pkuthss/readme-src/Makefile
+%doc %{_texmfdistdir}/doc/latex/pkuthss/readme-src/chap/abstract.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/readme-src/chap/acknowledge.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/readme-src/chap/chap1.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/readme-src/chap/chap2.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/readme-src/chap/chap3.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/readme-src/chap/conclusion.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/readme-src/chap/copyright.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/readme-src/chap/encl1.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/readme-src/chap/introduction.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/readme-src/chap/originauth.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/readme-src/pkuthss.bib
+%doc %{_texmfdistdir}/doc/latex/pkuthss/readme-src/pkuthss.tex
+%doc %{_texmfdistdir}/doc/latex/pkuthss/readme.pdf
 
 #-----------------------------------------------------------------------
 %prep
