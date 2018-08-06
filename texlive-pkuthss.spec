@@ -1,5 +1,5 @@
 Name:		texlive-pkuthss
-Version:	1.7.4
+Version:	1.8.0
 Release:	1
 Summary:	LaTeX template for dissertations in Peking University
 Group:		Publishing
