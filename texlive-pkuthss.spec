@@ -1,6 +1,6 @@
 Name:		texlive-pkuthss
 Version:	64869
-Release:	1
+Release:	2
 Summary:	LaTeX template for dissertations in Peking University
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pkuthss
