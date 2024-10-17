@@ -3,7 +3,7 @@ Version:	70491
 Release:	1
 Summary:	LaTeX template for dissertations in Peking University
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pkuthss
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pkuthss
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pkuthss.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pkuthss.doc.r%{version}.tar.xz
